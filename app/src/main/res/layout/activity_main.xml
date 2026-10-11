@@ -48,13 +48,27 @@
             android:hint="Email"
             android:inputType="textEmailAddress" />
 
+        <EditText
+            android:id="@+id/editTextCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Login code"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/codebutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="sendCode"
+            android:text="Send Code" />
+
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Submit"
             android:onClick="buttonPress"
-            />
+            android:text="Submit" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

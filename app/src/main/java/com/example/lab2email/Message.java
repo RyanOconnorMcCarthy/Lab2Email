@@ -23,8 +23,7 @@ public class Message extends AppCompatActivity {
             String user = getIntent().getStringExtra("name");
 
             message.setText(
-                    "Thank you " + user
-                            + ", your request is being processed."
+                    "Thank you " +user+ ", your request is being processed."
             );
             return insets;
 
