@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
     EditText email;
     EditText pnumber;
     EditText userCode;
+
+
     String generatedCode;
 
     Button getButton;
@@ -80,12 +82,22 @@ public class MainActivity extends AppCompatActivity {
 
     public void buttonPress(View view) {
         String user = name.getText().toString().trim();
+        String code = userCode.getText().toString().trim();
         Intent intent = new Intent(
                 MainActivity.this,
                 Message.class
         );
-        intent.putExtra("name", user);
-        startActivity(intent);
+
+        if(code.equals(generatedCode)){
+            intent.putExtra("name", user);
+            startActivity(intent);
+        }
+        else {
+            Toast.makeText(this, "Incorrect Code", Toast.LENGTH_SHORT).show();
+        }
+
+
+
 
     }
 }
