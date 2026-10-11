@@ -1,0 +1,21 @@
+commit 63c4942f290c64d79f604743b224bf7918923284
+Author: McCar163 <158161553+McCar163@users.noreply.github.com>
+Date:   Sun Oct 11 22:48:08 2026 +0100
+
+    added emailed code functionality
+    
+    compares codes
+
+commit 44d519acd0ffa8df51c4adf2874d3e57b8fd137e
+Author: McCar163 <158161553+McCar163@users.noreply.github.com>
+Date:   Sun Oct 11 16:17:54 2026 +0100
+
+    send email
+    
+    sends email. cant test.
+
+commit 93f3126c6d80a9c74210b1d7c0704856e1c723b5
+Author: McCar163 <158161553+McCar163@users.noreply.github.com>
+Date:   Sun Oct 11 11:32:34 2026 +0100
+
+    Initial commit
